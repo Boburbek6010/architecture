@@ -1,0 +1,60 @@
+name: architecture
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # animation
+  cupertino_icons: ^1.0.2
+  google_fonts: ^4.0.1
+  flutter_hooks: ^0.18.5+1
+  # json model
+  json_annotation: ^4.7.0
+  freezed_annotation: ^2.1.0
+  # networking
+  dio: ^4.0.6
+  retrofit: ^3.3.1
+  equatable: ^2.0.5
+  # storage
+  path_provider: ^2.0.11
+  hydrated_bloc: ^9.0.0
+
+  # state management
+  rxdart: ^0.27.7
+  flutter_bloc: ^8.1.1
+  # di
+  get_it: ^7.2.0
+  # storage
+  hive_flutter: ^1.1.0
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  build_runner: ^2.2.1
+  json_serializable: ^6.4.1
+  retrofit_generator: ^4.1.1
+  freezed: ^2.1.0
+
+flutter:
+
+  uses-material-design: true
+
+  # assets:
+  #   - images/a_dot_burr.jpeg
+
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
